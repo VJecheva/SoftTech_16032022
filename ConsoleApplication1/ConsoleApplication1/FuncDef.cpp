@@ -10,3 +10,14 @@ int suma(int a[], int br)
 		s += a[i];
 	return s;
 }
+
+int multiply(int a, int b)
+{
+	return a*b;
+}
+
+int max(int a, int b)
+{
+	if (a > b) return a;
+	return b;
+}
